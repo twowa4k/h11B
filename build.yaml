@@ -21,4 +21,4 @@
 include:
   - board: nice_nano//zmk
     shield: seagull
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
+    
