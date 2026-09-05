@@ -104,17 +104,17 @@
 &kp Z                             &mo 4
             &kp LC(C)  &kp LC(V)
 &kp LG(N1)                        &kp LALT
-&kp W                             &bt BT_SEL 0
+&kp W                             &bt BT_CLR_ALL
 
             &kp UP
 &kp LEFT    &kp RET    &kp RIGHT
             &kp DOWN
 
                        &kp S
-&kp N5      &kp LALT              &kp ESC       &kp N6
+&kp N5      &kp LALT              &kp ESC         &kp N6
                        &kp LALT
 
-&none                  &none                    &none
+&none                  &none                      &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(Y) LC(Z)>;
