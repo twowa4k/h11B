@@ -100,7 +100,7 @@
                      &mo 2      &mo 1
                                 &kp LEFT_ALT
 
-&kp Y                           &sl 3
+&kp Y                           &to 2
 &kp Z                           &to 3
           &kp LC(C)  &kp LC(V)
 &kp A                           &bt BT_SEL 1
@@ -163,7 +163,7 @@
                                   &mo 2            &mo 1
                                                    &kp LALT
 
-&sy0                                               &mo 3
+&kp D                                              &mo 3
 &sz0                                               &mo 4
                  &kp LS(L)        &kp LS(R)
 &kp KP_DIVIDE                                      &kp LALT
