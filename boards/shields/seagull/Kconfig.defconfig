@@ -1,6 +1,6 @@
 if SHIELD_SEAGULL
 
 config ZMK_KEYBOARD_NAME
-    default "H11.B"
+    default "Hx11"
 
 endif
