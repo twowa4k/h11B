@@ -100,10 +100,10 @@
                      &mo 2      &mo 1
                                 &kp LEFT_ALT
 
-&kp Y                           &to 2
+&kp Y                           &to 0
 &kp Z                           &to 1
           &kp LC(C)  &kp LC(V)
-&kp R                           &kp Q
+&kp R                           &to 2
 &kp W                           &kp N
 
           &kp UP
@@ -138,9 +138,9 @@
                                                     &kp LALT
 
 &sy0                                                &to 0
-&sz0                                                &to 2
+&sz0                                                &to 1
               &kp LS(D)          &kp LC(D)
-&bt BT_SEL 2                                        &bt BT_CLR
+&bt BT_SEL 2                                        &to 2
 &kp LALT                                            &kp V
 
               &ry90
@@ -164,9 +164,9 @@
                                                    &kp LALT
 
 &kp D                                              &to 0
-&sz0                                               &to 3
+&kp N                                              &to 1
                  &kp LS(L)        &kp LS(R)
-&bt BT_NXT                                         &kp LALT
+&bt BT_NXT                                         &to 2
 &kp LALT                                           &kp KP_N3
 
                  &kp KP_NUMBER_7
