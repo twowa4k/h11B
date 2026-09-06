@@ -97,24 +97,24 @@
             // +------+------+------+------+  
 
             bindings = <
-                     &mo 2      &mo 1
-                                &kp LEFT_ALT
+                       &mo 2      &mo 1
+                                  &kp LEFT_ALT
 
-&kp H                           &kp G
-&kp Z                           &to 3
-          &kp LC(C)  &kp LC(V)
-&to 4                           &bt BT_SEL 1
-&kp W                           &bt BT_CLR_ALL
+&kp H                             &kp G
+&kp Z                             &bt BT_SEL 0
+            &kp LC(C)  &kp LC(V)
+&bt BT_CLR                        &bt BT_SEL 1
+&kp W                             &bt BT_CLR_ALL
 
-          &kp UP
-&kp LEFT  &kp RET    &kp RIGHT
-          &kp DOWN
+            &kp UP
+&kp LEFT    &kp RET    &kp RIGHT
+            &kp DOWN
 
-                     &kp S
-&kp N5    &kp LALT              &kp ESC         &kp N6
-                     &kp LALT
+                       &kp S
+&kp N5      &kp LALT              &kp ESC         &kp N6
+                       &kp LALT
 
-&none                &none                      &none
+&none                  &none                      &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(Y) LC(Z)>;
@@ -189,7 +189,7 @@
                                   &mo 2            &mo 1
                                                    &kp LALT
 
-&kp C                                              &mo 3
+&kp C                                              &tog 0
 &sz0                                               &mo 4
                  &kp LS(L)        &kp LS(R)
 &to 0                                              &kp LALT
