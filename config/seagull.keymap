@@ -101,7 +101,7 @@
                                   &kp LEFT_ALT
 
 &kp H                             &kp G
-&kp Z                             &bt BT_SEL 0
+&kp Z                             &bt BT_SEL 3
             &kp LC(C)  &kp LC(V)
 &bt BT_CLR                        &bt BT_SEL 1
 &kp W                             &bt BT_CLR_ALL
