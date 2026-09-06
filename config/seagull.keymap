@@ -100,8 +100,8 @@
                      &mo 2      &mo 1
                                 &kp LEFT_ALT
 
-&kp Y                           &mo 3
-&kp Z                           &mo 4
+&kp Y                           &sl 3
+&kp Z                           &to 3
           &kp LC(C)  &kp LC(V)
 &kp A                           &bt BT_SEL 1
 &kp W                           &bt BT_CLR_ALL
@@ -189,7 +189,7 @@
                                   &mo 2            &mo 1
                                                    &kp LALT
 
-&sy0                                               &mo 3
+&kp C                                              &mo 3
 &sz0                                               &mo 4
                  &kp LS(L)        &kp LS(R)
 &kp KP_DIVIDE                                      &kp LALT
@@ -212,24 +212,24 @@
         layer_4 {
             display-name = "Numpad";
             bindings = <
-                          &mo 2      &mo 1
-                                     &kp LALT
+                         &mo 2      &mo 1
+                                    &kp LALT
 
-&kp Y                                &mo 3
-&kp Z                                &mo 4
-            &kp LC(C)     &kp LC(V)
-&kp LG(N1)                           &kp LALT
-&kp W                                &kp N4
+&kp Y                               &mo 3
+&kp Z                               &mo 4
+           &kp LC(C)     &kp LC(V)
+&kp B                               &kp LALT
+&kp W                               &kp N4
 
-            &sz0
-&sy0        &kp RET       &sx0
-            &taskmanager
+           &sz0
+&sy0       &kp RET       &sx0
+           &taskmanager
 
-                          &kp C
-&kp N7      &kp TAB                  &kp ESC   &kp N9
-                          &kp L
+                         &kp C
+&kp N7     &kp TAB                  &kp ESC   &kp N9
+                         &kp L
 
-&kp LA(L)                 &kp END              &kp LA(R)
+&kp LA(L)                &kp END              &kp LA(R)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(Y) LC(Z)>;
