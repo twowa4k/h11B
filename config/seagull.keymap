@@ -100,7 +100,7 @@
                      &mo 2      &mo 1
                                 &kp LEFT_ALT
 
-&kp Y                           &to 2
+&kp H                           &kp G
 &kp Z                           &to 3
           &kp LC(C)  &kp LC(V)
 &to 4                           &bt BT_SEL 1
