@@ -134,24 +134,24 @@
             // +------+------+------+------+     
 
             bindings = <
-                              &mo 2              &mo 1
-                                                 &kp LALT
+                               &mo 2              &mo 1
+                                                  &kp LALT
 
-&sy0                                             &mo 3
-&sz0                                             &mo 4
-           &kp LS(D)          &kp LC(D)
-&kp N7                                           &kp LGUI
-&kp LALT                                         &kp V
+&sy0                                              &mo 3
+&sz0                                              &mo 4
+            &kp LS(D)          &kp LC(D)
+&bt BT_NXT                                        &kp LGUI
+&kp LALT                                          &kp V
 
-           &ry90
-&rz90      &kp KP_DIVIDE      &rx90
-           &o0
+            &ry90
+&rz90       &kp KP_DIVIDE      &rx90
+            &o0
 
-                              &kp LS(LC(LA(T)))
-&kp LS(L)  &kp LS(LC(LA(L)))                     &kp LS(LC(LA(R)))  &kp LS(R)
-                              &kp LS(LC(LA(B)))
+                               &kp LS(LC(LA(T)))
+&kp LS(L)   &kp LS(LC(LA(L)))                     &kp LS(LC(LA(R)))  &kp LS(R)
+                               &kp LS(LC(LA(B)))
 
-&kp L                         &kp RET                               &kp R
+&kp L                          &kp RET                               &kp R
             >;
 
             sensor-bindings = <&inc_dec_kp LC(C_VOLUME_UP) LC(C_VOLUME_DOWN)>;
@@ -166,7 +166,7 @@
 &kp D                                              &mo 3
 &sz0                                               &mo 4
                  &kp LS(L)        &kp LS(R)
-&kp KP_DIVIDE                                      &kp LALT
+&bt BT_SEL 2                                       &kp LALT
 &kp LALT                                           &kp KP_N3
 
                  &kp KP_NUMBER_7
